@@ -83,19 +83,12 @@ nav ul li a {
   align-items: center;
 }
 
-.mode, .language{
+#mode-icon {
+  cursor: pointer;
+  width: 28px;
   margin: 0 15px;
 }
 
-#mode-icon {
-  cursor: pointer;
-  width: 24px;
-}
-
-.language a {
-  font-size: 16px;
-  text-decoration: none;
-}
 
 .hero {
   display: flex;
@@ -111,8 +104,6 @@ nav ul li a {
   align-items: left;
   padding-left: 32px;
 }
-
-
 
 .hero-img {
   width: 55%;
@@ -158,9 +149,17 @@ h3 {
   margin-right: auto;
 }
 
-.about-me-txt span {
+.about-me-txt span, .contact-me span {
   color: var(--highlight-color);
   font-weight: 500;
+}
+
+.big-p {
+  font-size: 120%;
+}
+
+.big-p span {
+  font-size: inherit;
 }
 
 .about-me-img {
@@ -194,6 +193,10 @@ h3 {
 	top:1px;
 }
 
+.contact-me .my-button {
+  font-size: 80%;
+}
+
 .projects {
   padding: 0 64px;
   margin-top: 64px;
@@ -203,7 +206,8 @@ h3 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 64px
+  margin-top: 72px;
+  margin-bottom: 16px;;
 }
 
 .project-img {
@@ -370,6 +374,10 @@ footer p {
   .my-logo{
     font-size: 16px;
   }
+  .project-txt {
+    margin: 16px 0;
+  }
+
 }
 .toggle {
       order: 2;
